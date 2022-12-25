@@ -1,4 +1,7 @@
-# HTML5-and-CSS3---Udemy
+# HTML5 and CSS3 - Udemy
+
+## [Build Responsive Websites with HTML5 and CSS3 | Udemy](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+
 Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid
 
 ### [Github Repository](https://github.com/jonasschmedtmann/html-css-course)
