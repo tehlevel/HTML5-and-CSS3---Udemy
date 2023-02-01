@@ -4,6 +4,7 @@
 }
 
 /* PAGE SECTIONS */
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -43,6 +44,7 @@ aside {
 }
 
 /* SMALLER ELEMENTS */
+
 h1,
 h2,
 h3 {
@@ -120,6 +122,7 @@ li:last-child {
 }
 
 /* Styling links */
+
 a:link {
   color: #1098ad;
   text-decoration: none;
@@ -139,7 +142,9 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
 /* LVHA */
+
 .post-img {
   width: 100%;
   height: auto;
@@ -197,5 +202,4 @@ h2::before {
 
 footer p {
   color: green !important;
-} */
-
+}
