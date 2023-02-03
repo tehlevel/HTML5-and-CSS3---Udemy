@@ -12,7 +12,7 @@ body {
 /* PRODUCT */
 .product {
   border: 4px solid black;
-  width: 825px;
+  width: 850px;
   margin: 50px auto;
   position: relative;
 }
@@ -37,7 +37,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
+  padding-top: 8px;
 }
 
 .sale {
@@ -52,10 +52,6 @@ body {
   position: absolute;
   top: -17px;
   left: -38px;
-}
-
-.more-info {
-  margin-top: 10px;
 }
 
 .color {
@@ -139,7 +135,7 @@ body {
 
 .right-box {
   float: right;
-  width: 250px;
+  width: 300px;
   padding: 20px 30px;
 }
 
@@ -155,5 +151,7 @@ body {
 }
 
 .product-info {
+  padding-top: 20px;
+  padding-bottom: 20px;
   clear: both;
 }
