@@ -12,7 +12,7 @@ body {
 /* PRODUCT */
 .product {
   border: 4px solid black;
-  width: 850px;
+  width: 825px;
   margin: 50px auto;
   position: relative;
 }
@@ -38,6 +38,7 @@ body {
   font-weight: bold;
   color: #777;
   padding-top: 8px;
+  margin-bottom: 20px;
 }
 
 .sale {
@@ -58,7 +59,7 @@ body {
   display: inline-block;
   width: 22px;
   height: 22px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-right: 10px;
 }
 
@@ -90,6 +91,8 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 /* Выделение ссылки под курсором */
@@ -134,24 +137,25 @@ body {
 }
 
 .right-box {
-  float: right;
-  width: 300px;
-  padding: 20px 30px;
+  float: left;
+  width: 243px;
+  margin-top: 20px;
 }
 
 .center-box {
   float: left;
-  width: 300px;
+  width: 243px;
   /* clear: both; */
-  padding: 20px 30px;
+  margin-top: 20px;
+  margin-right: 40px;
 }
 
 .left-box {
   float: left;
+  margin-right: 40px;
 }
 
 .product-info {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
   clear: both;
 }
