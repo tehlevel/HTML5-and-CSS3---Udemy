@@ -26,6 +26,34 @@ body {
 }
 
 /* PRODUCT INFORMATION */
+
+.sale {
+  color: #fff;
+  background-color: #ec2f2f;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px 15px;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.product-info {
+  float: left;
+  width: 243px;
+  /* clear: both; */
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
 .price {
   font-size: 24px;
   float: left;
@@ -41,18 +69,23 @@ body {
   margin-bottom: 20px;
 }
 
-.sale {
-  color: #fff;
-  background-color: #ec2f2f;
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: bold;
+.product-text {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+/* LVHA */
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
   display: inline-block;
-  padding: 7px 15px;
-  position: absolute;
-  top: -17px;
-  left: -38px;
+}
+
+/* Выделение ссылки под курсором */
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
 }
 
 .color {
@@ -87,25 +120,17 @@ body {
   background-color: #885214;
 }
 
-/* LVHA */
-.more-info:link,
-.more-info:visited {
-  color: black;
-  margin-bottom: 30px;
-  display: inline-block;
-}
-
-/* Выделение ссылки под курсором */
-.more-info:hover,
-.more-info:active {
-  text-decoration: none;
-}
-
 /* PRODUCT DETAILS */
+
+.product-details {
+  float: left;
+  width: 243px;
+  margin-top: 20px;
+}
+
 .details-title {
   font-size: 16px;
   text-transform: uppercase;
-  /* margin-top: 30px; */
   margin-bottom: 15px;
 }
 
@@ -134,28 +159,4 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
-}
-
-.right-box {
-  float: left;
-  width: 243px;
-  margin-top: 20px;
-}
-
-.center-box {
-  float: left;
-  width: 243px;
-  /* clear: both; */
-  margin-top: 20px;
-  margin-right: 40px;
-}
-
-.left-box {
-  float: left;
-  margin-right: 40px;
-}
-
-.product-info {
-  margin-bottom: 10px;
-  clear: both;
 }
