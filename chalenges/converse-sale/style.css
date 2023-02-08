@@ -25,17 +25,6 @@ body {
 }
 
 /* PRODUCT INFORMATION */
-.price {
-  font-size: 24px;
-}
-
-.shipping {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #777;
-  margin-bottom: 20px;
-}
 
 .sale {
   color: #fff;
@@ -51,11 +40,58 @@ body {
   left: -38px;
 }
 
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+.product-info {
+  float: left;
+  width: 243px;
+  /* clear: both; */
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.price {
+  font-size: 24px;
+  float: left;
+}
+
+.shipping {
+  float: right;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+
+.product-text {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+/* LVHA */
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+/* Выделение ссылки под курсором */
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
 .color {
   display: inline-block;
   width: 22px;
   height: 22px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-right: 10px;
 }
 
@@ -83,19 +119,14 @@ body {
   background-color: #885214;
 }
 
-/* LVHA */
-.more-info:link,
-.more-info:visited {
-  color: black;
-}
-
-/* Выделение ссылки под курсором */
-.more-info:hover,
-.more-info:active {
-  text-decoration: none;
-}
-
 /* PRODUCT DETAILS */
+
+.product-details {
+  float: left;
+  width: 243px;
+  margin-top: 20px;
+}
+
 .details-title {
   font-size: 16px;
   text-transform: uppercase;
