@@ -36,15 +36,51 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 32px;
         margin: 40px;
 
         /* FLEXBOX */
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;  /* stretch - по умолчанию, flex-start, flex-end */
-        justify-content: center; /* space-between, */
+        justify-content: flex-start; /* space-between, */
+        /* gap: 30px; */
       }
+
+      .el {
+        /* 
+        DEFAULTS: 
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        */
+        flex: 1;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+      
+      .el--2 {
+        /* align-self: flex-start; */
+      }
+
+      .el--3 {
+        /* align-self: flex-start; */
+      }
+
+      .el--4 {
+        /* align-self: flex-start; */
+      }
+
+      .el--5 {
+        align-self: stretch;
+      }
+
+      .el--6 {
+        order: -1;
+      }
+
     </style>
   </head>
   <body>
@@ -55,8 +91,8 @@
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
       <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
