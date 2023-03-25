@@ -172,3 +172,19 @@ body {
   column-gap: 40px;
   align-items: center;
 }
+
+.product-info {
+  margin-top: 20px;
+}
+
+.product-details {
+  margin-top: 20px;
+}
+
+.product-price {
+  margin-bottom: 20px;
+}
+
+.product-description {
+  margin-bottom: 15px;
+} 
