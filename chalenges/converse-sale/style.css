@@ -170,4 +170,5 @@ body {
   grid-template-columns: 250px 250px 250px;
   /* grid-template-rows: 80px 250px 80px; */
   column-gap: 40px;
+  align-items: center;
 }
