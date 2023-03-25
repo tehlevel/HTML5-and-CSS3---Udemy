@@ -132,14 +132,14 @@ body {
 
 /* FLEXBOX */
 
-.container {
+/* .container {
   display: flex;
   gap: 40px;
   justify-content: center;
 }
 
 .product-img {
-  /* margin-right: 20px; */
+  margin-right: 20px;
 }
 
 .product-info {
@@ -161,4 +161,13 @@ body {
 
 .product-description {
   margin-bottom: 15px;
+} */
+
+/* CSS GRID LAYOUT */
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  /* grid-template-rows: 80px 250px 80px; */
+  column-gap: 40px;
 }
